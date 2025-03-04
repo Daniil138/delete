@@ -19,4 +19,3 @@ documentation for details.
    cli
    main
    core
-   README
