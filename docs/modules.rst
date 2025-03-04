@@ -2,9 +2,10 @@ testing_mocks
 =============
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 5
 
    app
    cli
    main
    core
+   README
