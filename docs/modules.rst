@@ -6,6 +6,5 @@ testing_mocks
 
    app
    cli
-   main
    core
    README
