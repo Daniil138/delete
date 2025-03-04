@@ -4,3 +4,4 @@ pytest
 questionary
 Sphinx>=4.0
 sphinx-autodoc-typehints
+enum-tools
