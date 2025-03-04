@@ -15,8 +15,4 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
-   app
-   cli
-   main
-   core
-   README
+   modules
