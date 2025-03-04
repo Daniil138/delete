@@ -1,22 +1,17 @@
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../testing_mocks'))  
+sys.path.insert(0, os.path.abspath('..'))
 
-
-project = 'Teasting mocks'
-author = 'Volovicov, Gorbachevskiy'
-release = '1.0.0'
-
+project = 'Your Project Name'
+author = 'Your Name'
+release = '0.1.0'
 
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
-    'sphinx.ext.napoleon', 
 ]
 
-
-
-html_theme = 'sphinx_rtd_theme' 
-
-html_title = 'Документация Teasting mocks'
-
+templates_path = ['_templates']
+exclude_patterns = []
+html_theme = 'alabaster'
+html_static_path = ['_static']
